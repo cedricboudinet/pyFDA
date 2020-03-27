@@ -29,7 +29,7 @@ try:
 except ImportError:
     matplotlib.use("Qt4Agg")
 
-from .compat import (Qt, QtCore, QMainWindow, QApplication, QSplitter, QIcon, 
+from pyfda.compat import (Qt, QtCore, QMainWindow, QApplication, QSplitter, QIcon, 
                      QMessageBox, QPlainTextEdit, QAction, QMenu, pyqtSignal)
 
 from pyfda.pyfda_lib import to_html
